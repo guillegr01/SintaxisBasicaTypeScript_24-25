@@ -14,9 +14,23 @@
 let a:number = 5;
 let b:string = "hola";
 
+//correcto
+const c:number = 5;
+let d:number = c;
+
+//correcto
 let arrayNumeros:number[] = [1,2,3,4,5];
 arrayNumeros.push(6);
 arrayNumeros[1] = 3
+
+const arrayConstante:number[] = [1,2,3];
+//e es un array de numeros y apuntara al mismo sitio que arrayconstante
+let e = arrayConstante
+e.push(7);//se puede
+arrayConstante.push(8);//se puede
+
+//ahora let al no ser constante puede hacer esto pero deja de apuntar al mismo sitio que array constante
+e = [1,2];
 
 console.log("Hola Mundo");
 
