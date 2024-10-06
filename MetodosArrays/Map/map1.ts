@@ -3,16 +3,16 @@
  */
 
 type Persona = {
-    name:string,
+    nombre:string,
     edad:number,
     apellido?:string,
 }
 
-const arrayPersonas:Persona[] = [{name:"Guillermo", edad:22}, {name:"Rosa", edad:56}, 
-    {name:"Ines", edad:18}, {name:"Carlos", edad: 56, apellido:"Gil"}];
+const arrayPersonas:Persona[] = [{nombre:"Guillermo", edad:22}, {nombre:"Rosa", edad:56}, 
+    {nombre:"Ines", edad:18}, {nombre:"Carlos", edad: 56, apellido:"Gil"}];
 
 const arrayNombresPersonas:string[] = arrayPersonas.map((elem:Persona, i:number) => {
-    return elem.name;
+    return elem.nombre;
 });
 
 console.log(arrayNombresPersonas);
