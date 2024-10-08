@@ -19,7 +19,7 @@ const c:number = 5;
 let d:number = c;
 
 //correcto
-let arrayNumeros:number[] = [1,2,3,4,5];
+let arrayNum:number[] = [1,2,3,4,5];
 arrayNumeros.push(6);
 arrayNumeros[1] = 3
 
