@@ -21,6 +21,6 @@ console.log(yo.casa?.plantas || "No tengo casa");
 
 const claves = Object.keys(yo);//devuelve los atributos que tiene el objeto(name,age,coche,amigos)
 
-claves.forEach((elem,i) => {
+claves.forEach((elem) => {
     console.log(yo[elem as keyof Persona]); //Para imprimir los valores de los atributos del objeto
 })
