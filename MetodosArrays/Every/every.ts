@@ -11,7 +11,7 @@ const arrayEvery: number[] = [1,2,3,4,5,6,7];
 let booleanEvery:boolean;
 
 //FORMA1
-booleanEvery = arrayEvery.every((elem:number,i:number) => {
+booleanEvery = arrayEvery.every((elem:number) => {
     if (elem>0) {
         return true;
     }
@@ -20,7 +20,7 @@ booleanEvery = arrayEvery.every((elem:number,i:number) => {
 console.log(booleanEvery);
 
 //FORMA 2
-function mayores0(elem:number, i:number) : boolean {
+function mayores0(elem:number) : boolean {
     
     if (elem>0) {
         return true;
