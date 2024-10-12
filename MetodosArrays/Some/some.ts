@@ -11,7 +11,7 @@ const arrayNumerosSome:number[] = [1,2,3,4,5,6,7];
 let booleano:boolean;
 
 //FORMA 1
-booleano = arrayNumerosSome.some((elem:number, i:number) => {
+booleano = arrayNumerosSome.some((elem:number) => {
     if (elem%3===0) { //si hay algún elemento multiplo de 3
         return true;
     }else {
@@ -20,7 +20,7 @@ booleano = arrayNumerosSome.some((elem:number, i:number) => {
 })
 
 //FORMA 2
-function multiploDe3(elem:number, i:number): boolean {
+function multiploDe3(elem:number): boolean {
     if (elem%3===0) { //si hay algún elemento multiplo de 3
         return true;
     }else {
