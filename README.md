@@ -32,8 +32,7 @@ Lo primero que hya que hacer es crearse una carpeta y abrirla en visual studio c
 
 - Veremos en nuestro explorador de archivos de la carpeta abierta en vs code que tenemos un archivo llamado "deno.json". Tendremos que abrir ese archivo y darlo todos los permisos de ejecucción, por lo que tendremos que modificarlo para que quede de la siguiente manera: 
 
-<img src="C:\Users\guill\OneDrive\Imágenes\codeSnap.png">
-
+![codeSnap](https://github.com/user-attachments/assets/1d1dba81-df68-46f0-9d7f-5ee1423c5742)
 - Tras todos estos pasos, ya tendríamos el entorno listo para empezar a programar. Para ejecutar un archivo tendremos que poner en la linea de comandos de vs code "deno run" deguido del nombre del archivo que queremos ejecutar.
 
 ## Inicializar entorno y subiendo a github
