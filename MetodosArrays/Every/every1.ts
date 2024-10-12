@@ -9,7 +9,10 @@ const arr = [
     [3,2,3,4],
     [2,3,4]
 ];
-
+/**
+ * Utilizamos every porque queremos comprobar si todos los elementos del array cumplen la codición.
+ * Y luego utilizamos some ya que en cada subelemento, queremos ver si al menos uno es un 3.
+ */
 const todos3: boolean = arr.every((elem:number[]) => {
 
     return elem.some((elem:number) => {
