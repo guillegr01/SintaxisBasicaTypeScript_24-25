@@ -20,8 +20,8 @@ let d:number = c;
 
 //correcto
 let arrayNum:number[] = [1,2,3,4,5];
-arrayNumeros.push(6);
-arrayNumeros[1] = 3
+arrayNum.push(6);
+arrayNum[1] = 3
 
 const arrayConstante:number[] = [1,2,3];
 //e es un array de numeros y apuntara al mismo sitio que arrayconstante
