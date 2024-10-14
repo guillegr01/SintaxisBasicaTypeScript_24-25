@@ -25,6 +25,7 @@ Lo primero que hay que hacer es crearse una carpeta y abrirla en visual studio c
 - Una vez intalado, nos instalamos la extension de Deno en visual code.
 
 - Para inciar la extension, abrimos el command palette con "ctrl+shift +p", y escribimos "Deno", escogemos la opción "Enable" o "initialize workspace configuration", y le damos enter. Con esto ya tendríamos Deno inicializado. Para comnprobar que Deno esta incializado en nuestro workspace, en la parte inferior derecha de vs code, debajo de la terminal nos deberá a parecer "Deno y la version".
+  
   ![image](https://github.com/user-attachments/assets/4df2f895-390c-474a-ad6f-a02dbd8986f4)
 
 - En la terminal de vs code, ponemos el comando "deno init", y se nos crearán una serie de carpetas necesarias. De todas esas podemos borrar la de "main_test.ts".
