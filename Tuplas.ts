@@ -17,7 +17,7 @@ type GameBoard = readonly [
     [CellValue, CellValue, CellValue]
 ]
 
-const tablero: GameBoard = [
+const _tablero: GameBoard = [
     ['X', 'O', 'X'],
     ['O', 'O', 'X'],
     ['X', 'X', 'O']

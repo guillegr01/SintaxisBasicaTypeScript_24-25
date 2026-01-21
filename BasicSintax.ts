@@ -11,15 +11,15 @@
  */
 
 //declaración de variable
-let a:number = 5;
-let b:string = "hola";
+const _a:number = 5;
+const _b:string = "hola";
 
 //correcto
 const c:number = 5;
-let d:number = c;
+const _d:number = c;
 
 //correcto
-let arrayNum:number[] = [1,2,3,4,5];
+const arrayNum:number[] = [1,2,3,4,5];
 arrayNum.push(6);
 arrayNum[1] = 3
 
